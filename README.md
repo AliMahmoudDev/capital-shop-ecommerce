@@ -6,11 +6,6 @@
 
 ---
 
-## 🚀 Live Demo
-**[Click here to view the live project](LINK_TO_YOUR_GITHUB_PAGES_HERE)** *(Don't forget to replace this with your actual GitHub Pages link after deploying!)*
-
----
-
 ## 📝 About The Project
 
 **Capital Shop** is a fully responsive landing page designed to showcase best practices in frontend development. The goal was to build a scalable UI structure without relying on heavy frameworks, demonstrating a strong grasp of core web technologies.
@@ -82,4 +77,5 @@ I believe that clean code is as important as a beautiful UI. Here is a snippet o
 ---
 
 *If you like this project, please give it a ⭐ star!*
+
 
