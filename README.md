@@ -1,6 +1,6 @@
 ﻿# 🛍️ Capital Shop - E-commerce Landing Page
 
-![Project Banner](assests/images/hero.png)
+![Project Banner](/assets/images/README-img.png)
 
 > A modern, high-performance fashion e-commerce interface built with **Semantic HTML5**, **CSS3 (BEM methodology)**, and **Vanilla JavaScript**.
 
@@ -82,3 +82,4 @@ I believe that clean code is as important as a beautiful UI. Here is a snippet o
 ---
 
 *If you like this project, please give it a ⭐ star!*
+
