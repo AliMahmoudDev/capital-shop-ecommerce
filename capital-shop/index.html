@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Capital Shop - Premium Fashion E-commerce">
+    <title>Capital Shop | Premium Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Ionicons for Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header scroll-header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">CAPITAL SHOP</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#men" class="nav__link">Men</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#women" class="nav__link">Women</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#kids" class="nav__link">Kids</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__icons">
+                <i class="nav__icon"><ion-icon name="search-outline"></ion-icon></i>
+                <i class="nav__icon cart-icon">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span class="cart-count">0</span>
+                </i>
+                <i class="nav__icon"><ion-icon name="person-outline"></ion-icon></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home" id="home">
+            <div class="home__container">
+                <div class="home__data">
+                    <h1 class="home__title">Discover Your <br> Unique Style</h1>
+                    <p class="home__description">
+                        Explore the latest collection of premium fashion.
+                        Redefine your wardrobe with our exclusive arrivals.
+                    </p>
+                    <a href="#products" class="button">Shop Now</a>
+                </div>
+            </div>
+            <!-- Background Image -->
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section container">
+            <div class="features__container grid">
+                <div class="features__card">
+                    <div class="features__icon">
+                        <ion-icon name="airplane-outline"></ion-icon>
+                    </div>
+                    <h3 class="features__title">Free Shipping</h3>
+                    <p class="features__description">On all orders over $100</p>
+                </div>
+
+                <div class="features__card">
+                    <div class="features__icon">
+                        <ion-icon name="headset-outline"></ion-icon>
+                    </div>
+                    <h3 class="features__title">24/7 Support</h3>
+                    <p class="features__description">Contact us anytime</p>
+                </div>
+
+                <div class="features__card">
+                    <div class="features__icon">
+                        <ion-icon name="refresh-outline"></ion-icon>
+                    </div>
+                    <h3 class="features__title">Money Back</h3>
+                    <p class="features__description">30-day return policy</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Men's Section -->
+        <section class="products section container" id="men">
+            <h2 class="section__title">Men's Collection</h2>
+            <p class="section__subtitle">Elevate your everyday style</p>
+
+            <div class="products__container grid">
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="assets/images/jacket.png" alt="Urban Denim Jacket" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Urban Denim Jacket</h3>
+                        <span class="product-card__price">$89.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=600"
+                            alt="Basic Tee" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Essential White Tee</h3>
+                        <span class="product-card__price">$29.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&q=80&w=600"
+                            alt="Premium Sneakers" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Premium Sneakers</h3>
+                        <span class="product-card__price">$129.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Women's Section -->
+        <section class="products section container" id="women">
+            <h2 class="section__title">Women's Collection</h2>
+            <p class="section__subtitle">Elegant choices for every occasion</p>
+
+            <div class="products__container grid">
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="assets/images/dress.png" alt="Summer Floral Dress" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Summer Floral Dress</h3>
+                        <span class="product-card__price">$59.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=600"
+                            alt="Leather Handbag" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Classic Leather Bag</h3>
+                        <span class="product-card__price">$149.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80&w=600"
+                            alt="High Heels" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Evening Heels</h3>
+                        <span class="product-card__price">$99.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Kids' Section -->
+        <section class="products section container" id="kids">
+            <h2 class="section__title">Kids' Collection</h2>
+            <p class="section__subtitle">Fun and durable fashion</p>
+
+            <div class="products__container grid">
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&q=80&w=600"
+                            alt="Kids Hoodie" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Kids Color Hoodie</h3>
+                        <span class="product-card__price">$39.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&q=80&w=600"
+                            alt="Kids Denim" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Durable Denim Jeans</h3>
+                        <span class="product-card__price">$34.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <div class="product-card__img-box">
+                        <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&q=80&w=600"
+                            alt="Kids Sneakers" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Playtime Sneakers</h3>
+                        <span class="product-card__price">$45.99</span>
+                        <button class="button product-card__button">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <div class="about__img-box">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800"
+                        alt="About Capital Shop" class="about__img"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">Who We Are <br> & What We Do</h2>
+                    <p class="about__description">
+                        Capital Shop isn't just a brand; it's a lifestyle. Born from the streets and refined for the
+                        runway,
+                        we bridge the gap between high-end fashion and everyday wear. Our mission is to empower you to
+                        express
+                        your unique identity through quality, sustainable, and trend-setting pieces.
+                    </p>
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <ion-icon name="checkmark-circle-outline" class="about__details-icon"></ion-icon>
+                            Ethically Sourced Materials
+                        </p>
+                        <p class="about__details-description">
+                            <ion-icon name="checkmark-circle-outline" class="about__details-icon"></ion-icon>
+                            Exclusive Designer Collaborations
+                        </p>
+                        <p class="about__details-description">
+                            <ion-icon name="checkmark-circle-outline" class="about__details-icon"></ion-icon>
+                            Community Driven Events
+                        </p>
+                    </div>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section container" id="services">
+            <h2 class="section__title">Our Exclusive Services</h2>
+            <p class="section__subtitle">Experience the best in fashion care</p>
+
+            <div class="services__container grid">
+                <div class="services__card">
+                    <div class="services__icon-box">
+                        <ion-icon name="shirt-outline"></ion-icon>
+                    </div>
+                    <h3 class="services__title">Personal Styling</h3>
+                    <p class="services__description">
+                        Book a session with our expert stylists to curate a wardrobe that fits your personality and
+                        lifestyle perfectly.
+                    </p>
+                    <a href="#" class="services__link">Read More <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+
+                <div class="services__card">
+                    <div class="services__icon-box">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </div>
+                    <h3 class="services__title">Global Shipping</h3>
+                    <p class="services__description">
+                        We deliver happiness to your doorstep, no matter where you are in the world. Fast, tracked, and
+                        insured.
+                    </p>
+                    <a href="#" class="services__link">Read More <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+
+                <div class="services__card">
+                    <div class="services__icon-box">
+                        <ion-icon name="leaf-outline"></ion-icon>
+                    </div>
+                    <h3 class="services__title">Sustainable Fashion</h3>
+                    <p class="services__description">
+                        Join our eco-friendly initiative. Trade in your old Capital Shop gear for store credit and help
+                        us reduce waste.
+                    </p>
+                    <a href="#" class="services__link">Read More <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container">
+            <p class="footer__copy">&#169; 2026 Capital Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
